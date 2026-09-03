@@ -13,7 +13,7 @@ services:
     ]
 
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.8.23
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.5.3
     cpu_shares: 4096
     environment:
       discovery.type: single-node
